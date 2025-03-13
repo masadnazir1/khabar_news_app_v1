@@ -1,0 +1,138 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.Left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 10%;
+}
+.Right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.Right strong {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.BackBtn {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.BackBtn img {
+  width: 40px;
+}
+.Top {
+  width: 90%;
+  position: fixed;
+  top: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  background-color: #fff;
+}
+.Center {
+  display: flex;
+  gap: 10px;
+  justify-items: center;
+  height: 80vh;
+  width: 90%;
+  overflow-y: scroll;
+  margin-top: 50px;
+  flex-direction: column;
+  align-content: center;
+}
+
+.Bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* height: 10vh; */
+  width: 90%;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+}
+
+.Loginbutton {
+  background-color: #1877f2;
+  border-radius: 100px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  &:hover {
+    background-color: #0a4592;
+  }
+}
+
+.ProfilePictureBox {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  margin-top: 10%;
+}
+.PictureandCameraBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.camera {
+  position: absolute;
+  width: 30px;
+  bottom: 0;
+  right: 0;
+}
+.Picture {
+  width: 100%;
+}
+
+.InputBox {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%; /* Ensure the container takes full width */
+  gap: 15px;
+}
+
+.InputBox input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Full width */
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #000;
+  align-self: center;
+  box-sizing: border-box; /* Prevent overflow due to padding */
+}

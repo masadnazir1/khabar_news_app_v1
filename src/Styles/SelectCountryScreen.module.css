@@ -1,0 +1,138 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  position: absolute;
+  top: 20px;
+}
+.Left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 10%;
+}
+.Right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.Right strong {
+  font-size: 20px;
+  font-weight: bold;
+}
+.SearchBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+.SearchBox input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+}
+.searchIcon {
+  border: none;
+  background: transparent;
+}
+.searchIcon img {
+  width: 30px;
+  height: 30px;
+}
+.BackBtn {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.BackBtn img {
+  width: 40px;
+}
+.Top {
+  width: 90%;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  margin-top: 75px;
+}
+.Center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  width: 90%;
+}
+.CountryList {
+  display: flex;
+  padding: 15px;
+  gap: 20px;
+  cursor: pointer;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  &:hover {
+    background-color: #ccc;
+    cursor: pointer;
+  }
+}
+
+.Bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 10vh;
+  width: 90%;
+  flex-direction: column;
+}
+
+.Loginbutton {
+  background-color: #1877f2;
+  border-radius: 100px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  &:hover {
+    background-color: #0a4592;
+  }
+}
+
+.Bottom p {
+  margin-top: -5px;
+  margin-bottom: 40px;
+}
+
+.Bottom strong {
+  color: #1877f2;
+  cursor: pointer;
+}
+
+.noaccount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

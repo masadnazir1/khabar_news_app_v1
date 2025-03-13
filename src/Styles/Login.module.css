@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.Top {
+  width: 90%;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Hello {
+  font-weight: bold;
+  font-size: 70px;
+  color: black;
+}
+.Again {
+  font-weight: bold;
+  font-size: 70px;
+  color: #1877f2;
+}
+
+.Top p {
+  width: 40%;
+}
+.Center {
+  width: 90%;
+  height: 25vh;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 10px;
+}
+.Center label {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.Center input {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border: 2px solid #4e4c4c;
+  border-radius: 2px;
+  box-sizing: border-box; /* Ensure padding and border don't increase width */
+}
+
+.inputBox {
+  width: 100%;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.remember p {
+  cursor: pointer;
+}
+.remember strong {
+  color: #1877f2;
+  cursor: pointer;
+}
+
+.Bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 25vh;
+  width: 90%;
+  flex-direction: column;
+}
+
+.Loginbutton {
+  background-color: #1877f2;
+  border-radius: 100px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.GoogleLogin {
+  background-color: transparent;
+  border-radius: 100px;
+  width: 100%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 15px;
+  color: #000;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -50px;
+}
+
+.Bottom p {
+  margin-top: -5px;
+  margin-bottom: 40px;
+}
+
+.Bottom strong {
+  color: #1877f2;
+  cursor: pointer;
+}
+
+.noaccount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
