@@ -1,0 +1,30 @@
+.container {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  box-shadow: -1px -1px 5px 5px #0000001d;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  width: 100%;
+}
+.tab {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+.tab span {
+  font-size: 10px;
+}
+.TabIcon {
+  width: 30px;
+}
+
+.TabIconActive {
+  width: 30px;
+  filter: invert(30%) sepia(90%) saturate(500%) hue-rotate(190deg);
+}

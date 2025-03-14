@@ -1,0 +1,9 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* background: #ccc; */
+  height: 100vh;
+  flex-direction: column;
+  width: 100%;
+}

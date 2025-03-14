@@ -1,0 +1,114 @@
+.container {
+  width: 98%;
+  background-color: #fff;
+  margin: 5px;
+}
+.Head {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 5px;
+  height: 20px;
+  font-size: 15px;
+}
+.trendingtxt {
+  font-size: 15px;
+}
+.seeall {
+  background-color: transparent;
+  color: #565252;
+  cursor: pointer;
+  border: none;
+}
+
+.NewsDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 5px;
+
+  flex-direction: column;
+}
+
+.channelDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  width: -webkit-fill-available;
+
+  height: 20px;
+}
+
+.Sourcenameandlogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+
+  gap: 5px;
+  height: 20px;
+}
+.Logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 1000px;
+}
+
+.sourceandtimegroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dotbtn {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 10px;
+}
+
+.dotsbtn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.dotsbtn img {
+  width: 20px;
+}
+
+.Headline {
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.regionname {
+  text-align: left;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.PictureBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px;
+  margin: 5px;
+  max-height: 300px;
+  /* height: 200px; */
+  border-radius: 5px;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+  max-width: 300px;
+  /* box-shadow: 0px 2px 2px 2px #00000061; */
+  border-radius: 5px;
+}

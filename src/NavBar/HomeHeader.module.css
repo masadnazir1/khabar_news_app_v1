@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Left strong {
+  font-weight: bold;
+  font-size: 40px;
+  cursor: pointer;
+}
+.Right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0px 10px;
+}
+.Notification {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: 0px 1px 1px 1px #00000029;
+  border-radius: 5px;
+  &:hover {
+    background-color: #ccc;
+  }
+}
+.Notification img {
+  width: 30px;
+}
