@@ -1,0 +1,19 @@
+.AddButton {
+  width: 50px;
+  height: 50px;
+  background-color: #1877f2;
+  cursor: pointer;
+  border: none;
+  border-radius: 1000px;
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  &:hover {
+    background-color: #0e4ea3;
+  }
+}
+.AddButtonimg {
+  width: 25px;
+  height: 25px;
+  filter: brightness(0) invert(1);
+}

@@ -19,6 +19,8 @@ import Home from "./Pages/Homepage";
 import Profile from "./Pages/ProfilePage";
 import Explore from "./Pages/ExplorePage";
 import Bookmark from "./Pages/Bookmarkpage";
+import Settings from "./Pages/SettingsScreen";
+import CreatePostScreen from "./Pages/CreatePostScreen";
 
 function App() {
   return (
@@ -43,6 +45,8 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/explore" element={<Explore />} />
         <Route path="/bookmark" element={<Bookmark />} />
+        <Route path="/Settings" element={<Settings />} />
+        <Route path="/CreatePostScreen" element={<CreatePostScreen />} />
       </Routes>
     </Router>
   );

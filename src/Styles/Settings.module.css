@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  flex-direction: column;
+  width: 90%;
+  gap: 25px;
+  margin-top: 15px;
+}
+.Head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  text-align: center;
+}
+.Head img {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  &:hover {
+    background-color: #f1eded;
+    cursor: pointer;
+    border-radius: 100px;
+  }
+}
+.HeadRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.HeadLeft {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 10%;
+}
+
+.RowBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: #f0ebeb;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+.RowBox img {
+  width: 30px;
+}
+
+.Left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.toggleswitch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+}
+
+.toggleswitch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 25px;
+  transition: 0.4s;
+}
+
+.slider:before {
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #000000;
+}
+
+input:checked + .slider:before {
+  transform: translateX(24px);
+}

@@ -3,6 +3,14 @@
   background-color: #fff;
   margin: 5px;
   border-top: 2px solid #e2e2e2;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  &:hover {
+    background-color: #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+  }
 }
 .Head {
   align-items: center;
@@ -27,7 +35,7 @@
   align-items: flex-start;
   justify-content: center;
   margin: 5px;
-
+  width: 80%;
   flex-direction: column;
 }
 
@@ -101,23 +109,16 @@
 
 .PictureBox {
   background-color: #d2d2d2;
-  /* background-image: url("https://groups.google.com/group/digital-services-2024/attach/25a9aa043ccfb/6.jpg?part=0.1&view=1"); */
   display: flex;
   align-items: center;
   justify-content: center;
-
-  padding: 5px;
   margin: 5px;
-  max-height: 300px;
-  /* height: 200px; */
   border-radius: 5px;
 }
 
 .image {
-  height: 200px;
-  width: 300px;
-  max-width: 300px;
-  /* box-shadow: 0px 2px 2px 2px #00000061; */
+  height: 100px;
+  width: 100px;
   border-radius: 5px;
 }
 
